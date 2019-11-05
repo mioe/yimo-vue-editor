@@ -4678,7 +4678,7 @@
         // 定义 update selected 事件
         menu.updateSelectedEvent = function() {
           var rangeElem = editor.getRangeElem()
-          rangeElem = editor.getSelfOrParentByName(rangeElem, 'h1,h2,h3,h4,h5')
+          rangeElem = editor.getSelfOrParentByName(rangeElem, 'p,h1,h2,h3,h4,h5,h6')
           if (rangeElem) {
             return true
           }
