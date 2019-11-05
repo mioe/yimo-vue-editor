@@ -3422,18 +3422,18 @@
 
       // 字体
       E.config.familys = [
-        '宋体',
-        '黑体',
-        '楷体',
-        '微软雅黑',
+        // '宋体',
+        // '黑体',
+        // '楷体',
+        // '微软雅黑',
         'Arial',
         'Verdana',
         'Georgia',
         'Times New Roman',
-        'Microsoft JhengHei',
-        'Trebuchet MS',
+        // 'Microsoft JhengHei',
+        // 'Trebuchet MS',
         'Courier New',
-        'Impact',
+        // 'Impact',
         'Comic Sans MS',
         'Consolas'
       ]
@@ -5167,9 +5167,9 @@
           '<table class="choose-table" style="margin-bottom:10px;margin-top:5px;">'
         )
         var $row = $('<span>0</span>')
-        var $rowspan = $('<span> 行 </span>')
+        var $rowspan = $('<span> x </span>')
         var $col = $('<span>0</span>')
-        var $colspan = $('<span> 列</span>')
+        var $colspan = $('<span> </span>')
         var $tr
         var i, j
 
