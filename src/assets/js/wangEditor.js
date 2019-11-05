@@ -3247,6 +3247,55 @@
         uploadTimeoutPlaceTxt: 'upload_timeout__',
         uploadErrorPlaceTxt: 'upload_error__'
       }
+
+      // russian language
+      E.langs['ru-RU'] = {
+        bold: 'Полужирный',
+        underline: 'Подчеркнутый',
+        italic: 'Курсив',
+        forecolor: 'Цвет текста',
+        bgcolor: 'Заливка',
+        strikethrough: 'Зачеркнутый',
+        eraser: 'Убрать форматирование',
+        source: 'Исходник',
+        quote: 'Цитата',
+        fontfamily: 'Шрифт',
+        fontsize: 'Размер',
+        head: 'Форматирование',
+        orderlist: 'Вставить/Удалить нумерованный список список',
+        unorderlist: 'Вставить/Удалить маркированный список',
+        alignleft: 'По левому краю',
+        aligncenter: 'По центру',
+        alignright: 'По правому краю',
+        link: 'Ссылка',
+        linkTarget: 'Тип ссылки',
+        text: 'Текст',
+        submit: 'Добавить',
+        cancel: 'Отмена',
+        unlink: 'Убрать ссылку',
+        table: 'Таблица',
+        emotion: 'Смайлы',
+        img: 'Изображение',
+        uploadImg: 'Загрузить',
+        linkImg: 'Ссылка',
+        video: 'Видео',
+        width: 'Ширина',
+        height: 'Высота',
+        location: 'Место нахождения',
+        loading: 'Загрузка',
+        searchlocation: 'поиск',
+        dynamicMap: 'Динамический',
+        clearLocation: 'Очистить',
+        langDynamicOneLocation: 'Только одна локация на динамической карте',
+        insertcode: 'Вставить код',
+        undo: 'Отменить',
+        redo: 'Повторить',
+        fullscreen: 'Развернуть',
+        openLink: 'Открыть ссылку',
+        uploadPlaceTxt: 'загрузка__',
+        uploadTimeoutPlaceTxt: 'время_ожидания_загрузки__',
+        uploadErrorPlaceTxt: 'ошибка_загрузки__'
+      }
     })
     // 全局配置
     _e(function(E, $) {
@@ -3268,7 +3317,7 @@
       E.config.legalTags = 'p,h1,h2,h3,h4,h5,h6,blockquote,table,ul,ol,pre'
 
       // 语言包
-      E.config.lang = E.langs['zh-cn']
+      E.config.lang = E.langs['ru-RU']
 
       // 菜单配置
       E.config.menus = [
