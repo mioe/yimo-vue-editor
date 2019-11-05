@@ -3151,6 +3151,7 @@
       E.langs = {}
       E.colors = {}
       E.headersData = {}
+      E.videoLabels = {}
 
       // 中文
       E.langs['zh-cn'] = {
@@ -3227,6 +3228,11 @@
         '<h3>': '标题3',
         '<h4>': '标题4',
         '<h5>': '标题5'
+      }
+
+      E.videoLabels['zh-cn'] = {
+        linkInputLabel: '格式如',
+        howToCopyLabel: '如何复制视频链接？'
       }
 
       // 英文
@@ -3355,12 +3361,19 @@
         '<h5>': 'Заголовок 5',
         '<h6>': 'Заголовок 6'
       }
+
+      E.videoLabels['ru-RU'] = {
+        linkInputLabel: 'Пример',
+        howToCopyLabel: 'Как вставить видео ?'
+      }
     })
     // 全局配置
     _e(function(E, $) {
+      const currentLang = 'ru-RU'
+
       E.config = {}
 
-      E.config.headersData = E.headersData['ru-RU']
+      E.config.headersData = E.headersData[currentLang]
 
       // 全屏时的 z-index
       E.config.zindex = 10000
@@ -3378,7 +3391,7 @@
       E.config.legalTags = 'p,h1,h2,h3,h4,h5,h6,blockquote,table,ul,ol,pre'
 
       // 语言包
-      E.config.lang = E.langs['ru-RU']
+      E.config.lang = E.langs[currentLang]
 
       // 菜单配置
       E.config.menus = [
@@ -3418,7 +3431,9 @@
       ]
 
       // 颜色配置
-      E.config.colors = E.colors['ru-RU']
+      E.config.colors = E.colors[currentLang]
+
+      E.config.videoLabels = E.videoLabels[currentLang]
 
       // 字体
       E.config.familys = [
@@ -5622,6 +5637,7 @@
         var editor = this
         var lang = editor.config.lang
         var reg = /^<(iframe)|(embed)/i // <iframe... 或者 <embed... 格式
+        var labels = editor.config.videoLabels
 
         // 创建 menu 对象
         var menu = new E.Menu({
@@ -5634,7 +5650,7 @@
         var $content = $('<div></div>')
         var $linkInputContainer = $('<div style="margin:20px 10px;"></div>')
         var $linkInput = $(
-          '<input type="text" class="block" placeholder=\'格式如：<iframe src="..." frameborder=0 allowfullscreen></iframe>\'/>'
+          '<input type="text" class="block" placeholder=\''+ labels.linkInputLabel +': <iframe src="..." frameborder=0 allowfullscreen></iframe>\'/>'
         )
         $linkInputContainer.append($linkInput)
         var $sizeContainer = $('<div style="margin:20px 10px;"></div>')
@@ -5653,7 +5669,7 @@
           .append('<span> px </span>')
         var $btnContainer = $('<div></div>')
         var $howToCopy = $(
-          '<a href="http://www.kancloud.cn/wangfupeng/wangeditor2/134973" target="_blank" style="display:inline-block;margin-top:10px;margin-left:10px;color:#999;">如何复制视频链接？</a>'
+          '<a href="http://www.kancloud.cn/wangfupeng/wangeditor2/134973" target="_blank" style="display:inline-block;margin-top:10px;margin-left:10px;color:#999;">'+ labels.howToCopyLabel +'</a>'
         )
         var $btnSubmit = $('<button class="right">' + lang.submit + '</button>')
         var $btnCancel = $(
