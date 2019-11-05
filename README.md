@@ -21,7 +21,7 @@ Demo address: https://vue-editor.yimo.link/example/html/index.html
 </template>
 
 <script>
-import YimoVueEditor from 'yimo-vue-editor'
+import YimoVueEditor from 'yimo-vue-editor-ru'
 export default {
   components: {
     YimoVueEditor
@@ -33,7 +33,7 @@ export default {
 ## Global introduction and configuration
 
 ``` js
-import YimoVueEditor from 'yimo-vue-editor'
+import YimoVueEditor from 'yimo-vue-editor-ru'
 
 Vue.use(YimoVueEditor, {
   name: 'v-editor-app',//Custom name
