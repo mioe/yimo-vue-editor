@@ -1,8 +1,13 @@
 {
-  "name": "yimo-vue-editor",
+  "name": "yimo-vue-editor-ru",
   "description": "基于 wangeditor2.5.11 封装的 vue-editor 富文本编辑器组件",
   "version": "1.1.4",
   "author": "易墨 <wsyimo@qq.com>",
+  "contributors": {
+    "name": "misha gezha",
+    "email": "mioe.boss@gmail.com",
+    "url": "https://mioe.github.io"
+  },
   "license": "MIT",
   "private": false,
   "keywords": [
@@ -17,7 +22,7 @@
   "main": "dist/yimo-vue-editor.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yimogit/yimo-vue-editor"
+    "url": "https://github.com/mioe/yimo-vue-editor"
   },
   "dependencies": {
     "jquery": "^3.3.1",

@@ -1,4 +1,4 @@
-# yimo-vue-editor
+# yimo-vue-editor (ru)
 
 Demo address: https://vue-editor.yimo.link/example/html/index.html
 
@@ -7,21 +7,27 @@ Demo address: https://vue-editor.yimo.link/example/html/index.html
 
 ## Used in vue projects
 
-`npm install yimo-vue-editor --save`
+`npm install yimo-vue-editor --save` - original package
+
+`yarn add yimo-vue-editor-ru` - sub package
 
 [![](https://img.shields.io/npm/v/yimo-vue-editor.svg)](https://www.npmjs.com/package/yimo-vue-editor)
 
-```
+```js
 <template>
-  <yimo-vue-editor v-model="text></yimo-vue-editor>
+  <yimo-vue-editor
+    v-model="text"
+  />
 </template>
 
+<script>
 import YimoVueEditor from 'yimo-vue-editor'
 export default {
   components: {
     YimoVueEditor
   }
 }
+</script>
 ```
 
 ## Global introduction and configuration
