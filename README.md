@@ -11,8 +11,6 @@ Demo address: https://vue-editor.yimo.link/example/html/index.html
 
 `yarn add yimo-vue-editor-ru` - sub package
 
-[![](https://img.shields.io/npm/v/yimo-vue-editor.svg)](https://www.npmjs.com/package/yimo-vue-editor)
-
 ```js
 <template>
   <yimo-vue-editor
