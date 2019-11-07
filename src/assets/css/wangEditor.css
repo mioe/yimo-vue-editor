@@ -733,7 +733,7 @@
 .wangeditor-menu-img-cancel-circle:before {
   content: '\e901';
 }
-.hljs {
+.yimo-vue-editor .hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
@@ -741,95 +741,95 @@
   background: #f8f8f8;
   -webkit-text-size-adjust: none;
 }
-.hljs-comment,
-.diff .hljs-header {
+.yimo-vue-editor .hljs-comment,
+.yimo-vue-editor .diff .hljs-header {
   color: #998;
   font-style: italic;
 }
-.hljs-keyword,
-.css .rule .hljs-keyword,
-.hljs-winutils,
-.nginx .hljs-title,
-.hljs-subst,
-.hljs-request,
-.hljs-status {
+.yimo-vue-editor .hljs-keyword,
+.yimo-vue-editor .css .rule .hljs-keyword,
+.yimo-vue-editor .hljs-winutils,
+.yimo-vue-editor .nginx .hljs-title,
+.yimo-vue-editor .hljs-subst,
+.yimo-vue-editor .hljs-request,
+.yimo-vue-editor .hljs-status {
   color: #333;
   font-weight: bold;
 }
-.hljs-number,
-.hljs-hexcolor,
-.ruby .hljs-constant {
+.yimo-vue-editor .hljs-number,
+.yimo-vue-editor .hljs-hexcolor,
+.yimo-vue-editor .ruby .hljs-constant {
   color: #008080;
 }
-.hljs-string,
-.hljs-tag .hljs-value,
-.hljs-doctag,
-.tex .hljs-formula {
+.yimo-vue-editor .hljs-string,
+.yimo-vue-editor .hljs-tag .hljs-value,
+.yimo-vue-editor .hljs-doctag,
+.yimo-vue-editor .tex .hljs-formula {
   color: #d14;
 }
-.hljs-title,
-.hljs-id,
-.scss .hljs-preprocessor {
+.yimo-vue-editor .hljs-title,
+.yimo-vue-editor .hljs-id,
+.yimo-vue-editor .scss .hljs-preprocessor {
   color: #900;
   font-weight: bold;
 }
-.hljs-list .hljs-keyword,
-.hljs-subst {
+.yimo-vue-editor .hljs-list .hljs-keyword,
+.yimo-vue-editor .hljs-subst {
   font-weight: normal;
 }
-.hljs-class .hljs-title,
-.hljs-type,
-.vhdl .hljs-literal,
-.tex .hljs-command {
+.yimo-vue-editor .hljs-class .hljs-title,
+.yimo-vue-editor .hljs-type,
+.yimo-vue-editor .vhdl .hljs-literal,
+.yimo-vue-editor .tex .hljs-command {
   color: #458;
   font-weight: bold;
 }
-.hljs-tag,
-.hljs-tag .hljs-title,
-.hljs-rule .hljs-property,
-.django .hljs-tag .hljs-keyword {
+.yimo-vue-editor .hljs-tag,
+.yimo-vue-editor .hljs-tag .hljs-title,
+.yimo-vue-editor .hljs-rule .hljs-property,
+.yimo-vue-editor .django .hljs-tag .hljs-keyword {
   color: #000080;
   font-weight: normal;
 }
-.hljs-attribute,
-.hljs-variable,
-.lisp .hljs-body,
-.hljs-name {
+.yimo-vue-editor .hljs-attribute,
+.yimo-vue-editor .hljs-variable,
+.yimo-vue-editor .lisp .hljs-body,
+.yimo-vue-editor .hljs-name {
   color: #008080;
 }
-.hljs-regexp {
+.yimo-vue-editor .hljs-regexp {
   color: #009926;
 }
-.hljs-symbol,
-.ruby .hljs-symbol .hljs-string,
-.lisp .hljs-keyword,
-.clojure .hljs-keyword,
-.scheme .hljs-keyword,
-.tex .hljs-special,
-.hljs-prompt {
+.yimo-vue-editor .hljs-symbol,
+.yimo-vue-editor .ruby .hljs-symbol .hljs-string,
+.yimo-vue-editor .lisp .hljs-keyword,
+.yimo-vue-editor .clojure .hljs-keyword,
+.yimo-vue-editor .scheme .hljs-keyword,
+.yimo-vue-editor .tex .hljs-special,
+.yimo-vue-editor .hljs-prompt {
   color: #990073;
 }
-.hljs-built_in {
+.yimo-vue-editor .hljs-built_in {
   color: #0086b3;
 }
-.hljs-preprocessor,
-.hljs-pragma,
-.hljs-pi,
-.hljs-doctype,
-.hljs-shebang,
-.hljs-cdata {
+.yimo-vue-editor .hljs-preprocessor,
+.yimo-vue-editor .hljs-pragma,
+.yimo-vue-editor .hljs-pi,
+.yimo-vue-editor .hljs-doctype,
+.yimo-vue-editor .hljs-shebang,
+.yimo-vue-editor .hljs-cdata {
   color: #999;
   font-weight: bold;
 }
-.hljs-deletion {
+.yimo-vue-editor .hljs-deletion {
   background: #fdd;
 }
-.hljs-addition {
+.yimo-vue-editor .hljs-addition {
   background: #dfd;
 }
-.diff .hljs-change {
+.yimo-vue-editor .diff .hljs-change {
   background: #0086b3;
 }
-.hljs-chunk {
+.yimo-vue-editor .hljs-chunk {
   color: #aaa;
 }
